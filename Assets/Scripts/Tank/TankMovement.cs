@@ -61,6 +61,24 @@ public class TankMovement : MonoBehaviour
     private void EngineAudio()
     {
         // Play the correct audio clip based on whether or not the tank is moving and what audio is currently playing.
+        if (Mathf.Abs(m_MovementInputValue) < 0.1f && Mathf.Abs(m_TurnInputValue) < 0.1f)
+        {
+            if (m_MovementAudio.clip == m_EngineDriving)
+            {
+                m_MovementAudio.clip = m_EngineIdling;
+                m_MovementAudio.pitch = Random.Range(m_OriginalPitch - m_PitchRange, m_OriginalPitch + m_PitchRange);
+                m_MovementAudio.Play();
+            }
+        }
+        else
+        {
+            if (m_MovementAudio.clip == m_EngineIdling)
+            {
+                m_MovementAudio.clip = m_EngineDriving;
+                m_MovementAudio.pitch = Random.Range(m_OriginalPitch - m_PitchRange, m_OriginalPitch + m_PitchRange);
+                m_MovementAudio.Play();
+            }
+        }
     }
 
 
