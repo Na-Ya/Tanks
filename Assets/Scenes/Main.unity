@@ -119,7 +119,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1698058279}
+    m_TransformParent: {fileID: 1698058284}
     m_Modifications:
     - target: {fileID: 496482, guid: f7167ad2844254441b40b8a300b4f1fe, type: 2}
       propertyPath: m_LocalPosition.x
@@ -215,7 +215,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1698058279}
+    m_TransformParent: {fileID: 1698058284}
     m_Modifications:
     - target: {fileID: 496482, guid: f7167ad2844254441b40b8a300b4f1fe, type: 2}
       propertyPath: m_LocalPosition.x
@@ -380,11 +380,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1347968200255438, guid: e4c92ce1f2cb54ce89050c2bad3602a3,
     type: 2}
   m_PrefabInternal: {fileID: 1698058277}
---- !u!4 &1698058279 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4790742837734874, guid: e4c92ce1f2cb54ce89050c2bad3602a3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1698058277}
 --- !u!114 &1698058280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,7 +394,17 @@ MonoBehaviour:
   m_PlayerNumber: 1
   m_Speed: 12
   m_TurnSpeed: 180
-  m_MovementAudio: {fileID: 0}
-  m_EngineIdling: {fileID: 0}
-  m_EngineDriving: {fileID: 0}
+  m_MovementAudio: {fileID: 1698058282}
+  m_EngineIdling: {fileID: 8300000, guid: 4932ab25b84dd7649b80af68a9660ddc, type: 3}
+  m_EngineDriving: {fileID: 8300000, guid: d7ca9fb5aa30155449192b23d7fb3336, type: 3}
   m_PitchRange: 0.2
+--- !u!82 &1698058282 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82680011297070986, guid: e4c92ce1f2cb54ce89050c2bad3602a3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1698058277}
+--- !u!4 &1698058284 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4790742837734874, guid: e4c92ce1f2cb54ce89050c2bad3602a3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1698058277}
