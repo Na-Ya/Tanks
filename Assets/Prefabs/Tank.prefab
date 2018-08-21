@@ -1022,12 +1022,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlayerNumber: 1
-  m_Shell: {fileID: 0}
-  m_FireTransform: {fileID: 0}
-  m_AimSlider: {fileID: 0}
-  m_ShootingAudio: {fileID: 0}
-  m_ChargingClip: {fileID: 0}
-  m_FireClip: {fileID: 0}
+  m_Shell: {fileID: 54311939609707214, guid: e2680156b9b4248ada9a698cc6993d5a, type: 2}
+  m_FireTransform: {fileID: 4679674567173364}
+  m_AimSlider: {fileID: 114997093685903526}
+  m_ShootingAudio: {fileID: 82910046122053808}
+  m_ChargingClip: {fileID: 8300000, guid: c17f124fcdc0f5446a72f793898bd74b, type: 3}
+  m_FireClip: {fileID: 8300000, guid: 672a9941361ad494a99fba36759eca80, type: 3}
   m_MinLaunchForce: 15
   m_MaxLaunchForce: 30
   m_MaxChargeTime: 0.75
@@ -10242,8 +10242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 6.5}
-  m_SizeDelta: {x: -2, y: 13}
+  m_AnchoredPosition: {x: 0, y: 6}
+  m_SizeDelta: {x: -2, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224098608608026870
 RectTransform:
