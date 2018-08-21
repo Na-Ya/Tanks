@@ -46,8 +46,7 @@ public class ShellExplosion : MonoBehaviour
 
         m_ExplosionAudio.Play();
 
-        Destroy(m_ExplosionParticles.gameObject, m_ExplosionParticles.main.duration);
-        //may need to update to m_ExplositionParticles.duration if an error is thrown.
+        Destroy(m_ExplosionParticles.gameObject, m_ExplosionParticles.duration);
         Destroy(gameObject);
     }
 
